@@ -17,13 +17,21 @@
 #         print(x) 
 
 # 4. Whoa. That Sucker's Huge
-# for x in range(500000):
-#     if x % 2 == 1:
-#         sum = sum + x
-#     print(sum)    
+# sum = 0
+# for x in range(1,500000,2):
+#     sum += x
+# print(x)
 
 # 5. Countdown by Fours
 # for x in range(2018,0,-4):
 #     print(x)
 
 # 6. Flexible Counter
+def flexible_counter(lowNum, highNum, mult):
+    for x in range(lowNum, highNum+1):
+        if x % mult == 0:
+            print(x)
+
+flexible_counter(5,75,3)
+
+

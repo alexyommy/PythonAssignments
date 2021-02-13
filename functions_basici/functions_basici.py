@@ -49,11 +49,11 @@
 #     print(b)
 #     if b < 10:
 #         return 5
-# 	    else:
-# 		    return 10
+# 	  else:
+# 		  return 10
 #     return 7
 # print(a())
-# output: invalid syntax
+# output: 100,10
 
 #9
 # def a(b,c):
