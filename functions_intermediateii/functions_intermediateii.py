@@ -19,7 +19,7 @@ students[0]['last_name'] = 'Bryant'
 sports_directory['soccer'][0] = 'Andres'
 # print(sports_directory)
 # 4. Change the value 20 in z to 30
-z[0]['y']=int(30)
+z[0]['y']=30
 # print(z)
 
 # 2. Iterate Through a List of Dictionaries
@@ -68,7 +68,7 @@ def printInfo(some_dict):
         for item in some_dict[key]:
             print(item)
         print('\n')
-printInfo(dojo)
+# printInfo(dojo)
 # output:
 # 7 LOCATIONS
 # San Jose
@@ -88,3 +88,5 @@ printInfo(dojo)
 # Patrick
 # Minh
 # Devon
+
+
